@@ -210,7 +210,7 @@ body {
 .main {
   position: relative;
   height: 800px;
-  background: url("../img/condition.png") no-repeat bottom center, url("../img/main-bg.png") no-repeat center/cover;
+  background: url("https://sashardnk.github.io/condition.png") no-repeat bottom center, url("https://sashardnk.github.io/main-bg.png") no-repeat center/cover;
   text-align: center;
 }
 .main-bg__condition {
