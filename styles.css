@@ -17,7 +17,7 @@ body {
   font-style: normal;
   font-size: 20px;
   margin-inline: auto;
-  width: 1000px;
+  max-width: 1000px;
 }
 
 .container {
@@ -66,14 +66,6 @@ body {
   background: url("https://sashardnk.github.io/main.png");
   text-align: center;
 }
-.main-bg__condition {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-          transform: translateX(-50%);
-}
 .main__title {
   margin-top: 56px;
   margin-left: -14px;
@@ -109,7 +101,7 @@ body {
   letter-spacing: 0.06px;
 }
 .footer__block:nth-child(3) {
-  margin-left: 270px;
+  margin-left: auto;
   letter-spacing: 0.06px;
 }
 .footer__link {
