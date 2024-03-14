@@ -12,14 +12,6 @@
 }
 
 /**
-  Убираем внутренние отступы слева тегам списков,
-  у которых есть атрибут class
- */
-:where(ul, ol):where([class]) {
-  padding-left: 0;
-}
-
-/**
   Убираем внешние отступы body и двум другим тегам,
   у которых есть атрибут class
  */
@@ -266,13 +258,13 @@ body {
   width: fit-content;
   color: #000;
   text-decoration: none;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 .footer__link--underline {
   border-bottom: 0.5px solid #000;
 }
 
 .address {
-  margin-bottom: 5px;
+  margin-bottom: 0px;
   font-style: normal;
 }
